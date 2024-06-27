@@ -1,0 +1,103 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  align-items: center;
+  text-align: center;
+  font-family: "poppins";
+  /* color: hsl(229, 6%, 66%); */
+  color: #4b4c61;
+}
+
+header {
+  margin-top: 20px;
+}
+
+h1 {
+  font-weight: 200;
+}
+
+.details {
+  margin-top: 60px;
+  width: 28%;
+  margin: auto;
+}
+
+h3{
+  font-size: 1.2em;
+}
+
+main {
+  margin-top: 60px;
+  display: flex;
+  gap: 20px;
+  justify-content: center;
+  align-items: center;
+}
+
+img {
+  max-width: 100%;
+  float: right;
+  margin-top: 50px;
+}
+
+.supervisor, .team-builder, .karma, .calculator {
+  width: 300px;
+  padding: 40px;
+  /* border: 10px solid black; */
+  border-radius: 10px;
+  text-align: left;
+  background-color: white;
+  overflow: hidden;
+  box-shadow: -5px 21px 33px -25px rgba(0,0,0,0.82);
+}
+
+.middle {
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+p {
+  margin-top: 15px;
+  font-size: 15px;
+}
+
+.supervisor {
+  border-top: 6px solid hsl(180, 62%, 55%);
+}
+
+
+.team-builder {
+  border-top: 6px solid hsl(0, 78%, 62%);
+}
+
+.karma {
+  border-top: 6px solid hsl(34, 97%, 64%);
+}
+
+.calculator {
+  border-top: 6px solid hsl(212, 86%, 64%);
+}
+
+
+
+@media screen and (max-width: 578px) {
+
+  body {
+    padding: 5px;
+  }
+
+  main {
+    flex-direction: column;
+    gap: 40px;
+  }
+
+  .details  {
+    width: 80%;
+  }
+}
